@@ -1,0 +1,33 @@
+body {
+    background-color:black;
+    color:white;
+}
+
+#parent {
+    text-align: center;
+    margin:200px auto;
+}
+
+form{
+    font-size:20px;
+}
+
+#amount {
+height:20px;
+}
+
+#text-1{
+    font-size:20px;
+    color:lightcoral
+}
+
+@media screen and (max-width: 768px) {
+    #coin {
+        display: inline-block;
+        font-size:17.5px;
+    }
+    #coin span::after {
+        content: "\A";  /* 改行 */
+        white-space: pre;  /* 改行を有効にする */
+    }
+}
